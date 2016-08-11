@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<usi:tdm xmlns:usi="http://www.ni.com/Schemas/USI/1_0" version="1.0">
+
+  <usi:documentation>
+    <usi:exporter>National Instruments USI</usi:exporter>
+    <usi:exporterVersion>1.8</usi:exporterVersion>
+  </usi:documentation>
+
+  <usi:model modelName="National Instruments USI generated meta file" modelVersion="1.0">
+    <usi:include nsUri="http://www.ni.com/DataModels/USI/TDM/1_0"/>
+  </usi:model>
+
+  <usi:include>
+    <file byteOrder="littleEndian" url="Corridors.tdx">
+      <block byteOffset="0" id="inc0" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="4000" id="inc1" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="8000" id="inc2" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="12000" id="inc3" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="16000" id="inc4" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="20000" id="inc5" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="24000" id="inc6" length="500" valueType="eFloat64Usi"/>
+      <block byteOffset="28000" id="inc7" length="500" valueType="eFloat64Usi"/>
+    </file>
+  </usi:include>
+
+  <usi:data>
+    <double_sequence id="usi1">
+      <values external="inc0"/>
+    </double_sequence>
+    <double_sequence id="usi2">
+      <values external="inc1"/>
+    </double_sequence>
+    <double_sequence id="usi3">
+      <values external="inc2"/>
+    </double_sequence>
+    <double_sequence id="usi4">
+      <values external="inc3"/>
+    </double_sequence>
+    <double_sequence id="usi5">
+      <values external="inc4"/>
+    </double_sequence>
+    <double_sequence id="usi6">
+      <values external="inc5"/>
+    </double_sequence>
+    <double_sequence id="usi7">
+      <values external="inc6"/>
+    </double_sequence>
+    <double_sequence id="usi8">
+      <values external="inc7"/>
+    </double_sequence>
+    <tdm_root id="usi9">
+      <name>Corridors</name>
+      <description>Frontal small overlap, flat 150, 25%, 64.4 km/h</description>
+      <title>2012 Dodge Avenger</title>
+      <author></author>
+      <datetime>2013-08-22T11:53:32</datetime>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="Data_Path">
+          <s>\\IIHS\IIHSDrive\VRC\Shared\Crashworthiness Program\Frontal Crash Tests\CEN1216</s>
+        </string_attribute>
+        <string_attribute name="datestring">
+          <s>08/22/2013</s>
+        </string_attribute>
+        <string_attribute name="Dummy_Type">
+          <s>H350</s>
+        </string_attribute>
+        <double_attribute name="Impact_velocity">64.3</double_attribute>
+        <string_attribute name="Occupant_Position">
+          <s>Driver</s>
+        </string_attribute>
+        <string_attribute name="Test_Date">
+          <s>6/26/2012</s>
+        </string_attribute>
+        <string_attribute name="Test_ID">
+          <s>CEN1216</s>
+        </string_attribute>
+        <string_attribute name="timestring">
+          <s>11:53:32</s>
+        </string_attribute>
+        <string_attribute name="Vehicle_Name">
+          <s>2012 Dodge Avenger</s>
+        </string_attribute>
+      </instance_attributes>
+      <channelgroups>#xpointer(id("usi10"))</channelgroups>
+    </tdm_root>
+    <tdm_channelgroup id="usi10">
+      <name>Corridors</name>
+      <description></description>
+      <root>#xpointer(id("usi9"))</root>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <channels>#xpointer(id("usi11") id("usi12") id("usi13") id("usi14") id("usi15") id("usi16") id("usi17") id("usi18"))</channels>
+      <submatrices>#xpointer(id("usi19") id("usi20") id("usi21") id("usi22") id("usi23") id("usi24") id("usi25") id("usi26"))</submatrices>
+    </tdm_channelgroup>
+    <tdm_channel id="usi11">
+      <name>Time</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>0</minimum>
+      <maximum>0.0499000000000004</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>increasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi27"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi12">
+      <name>Femur (Good)</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>6048</minimum>
+      <maximum>7256</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi28"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi13">
+      <name>Femur (Acceptable)</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>7560</minimum>
+      <maximum>9070</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi29"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi14">
+      <name>Femur (Marginal)</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>9072</minimum>
+      <maximum>10884</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi30"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi15">
+      <name>Neck Compression</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>1100</minimum>
+      <maximum>4000</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi31"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi16">
+      <name>Neck Tension</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>1100</minimum>
+      <maximum>3300</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi32"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi17">
+      <name>Neck Shear</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>1100</minimum>
+      <maximum>3100</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi33"))</local_columns>
+    </tdm_channel>
+    <tdm_channel id="usi18">
+      <name>Lower Bound</name>
+      <description></description>
+      <group>#xpointer(id("usi10"))</group>
+      <unit_string></unit_string>
+      <datatype>DT_DOUBLE</datatype>
+      <minimum>-1</minimum>
+      <maximum>-1</maximum>
+      <registerint1>0</registerint1>
+      <registerint2>0</registerint2>
+      <registerint3>0</registerint3>
+      <registerint4>0</registerint4>
+      <registerint5>0</registerint5>
+      <registerint6>0</registerint6>
+      <registertxt1></registertxt1>
+      <registertxt2></registertxt2>
+      <registertxt3></registertxt3>
+      <instance_attributes>
+        <string_attribute name="displaytype">
+          <s>Numeric</s>
+        </string_attribute>
+        <string_attribute name="monotony">
+          <s>decreasing</s>
+        </string_attribute>
+        <string_attribute name="novaluekey">
+          <s>No</s>
+        </string_attribute>
+        <double_attribute name="wf_increment">0.0001</double_attribute>
+        <long_attribute name="wf_samples">500</long_attribute>
+        <double_attribute name="wf_start_offset">0</double_attribute>
+        <time_attribute name="wf_start_time">1904-01-01T00:00:00</time_attribute>
+        <string_attribute name="wf_time_pref">
+          <s>relative</s>
+        </string_attribute>
+        <string_attribute name="wf_xname">
+          <s>Time</s>
+        </string_attribute>
+        <string_attribute name="wf_xunit_string">
+          <s></s>
+        </string_attribute>
+      </instance_attributes>
+      <local_columns>#xpointer(id("usi34"))</local_columns>
+    </tdm_channel>
+    <submatrix id="usi19">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi27"))</local_columns>
+    </submatrix>
+    <submatrix id="usi20">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi28"))</local_columns>
+    </submatrix>
+    <submatrix id="usi21">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi29"))</local_columns>
+    </submatrix>
+    <submatrix id="usi22">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi30"))</local_columns>
+    </submatrix>
+    <submatrix id="usi23">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi31"))</local_columns>
+    </submatrix>
+    <submatrix id="usi24">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi32"))</local_columns>
+    </submatrix>
+    <submatrix id="usi25">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi33"))</local_columns>
+    </submatrix>
+    <submatrix id="usi26">
+      <name>submatrix</name>
+      <description></description>
+      <measurement>#xpointer(id("usi10"))</measurement>
+      <number_of_rows>500</number_of_rows>
+      <local_columns>#xpointer(id("usi34"))</local_columns>
+    </submatrix>
+    <localcolumn id="usi27">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi11"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi19"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>0</minimum>
+      <maximum>0.0499000000000004</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi1"))</values>
+    </localcolumn>
+    <localcolumn id="usi28">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi12"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi20"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>6048</minimum>
+      <maximum>7256</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi2"))</values>
+    </localcolumn>
+    <localcolumn id="usi29">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi13"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi21"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>7560</minimum>
+      <maximum>9070</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi3"))</values>
+    </localcolumn>
+    <localcolumn id="usi30">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi14"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi22"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>9072</minimum>
+      <maximum>10884</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi4"))</values>
+    </localcolumn>
+    <localcolumn id="usi31">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi15"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi23"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>1100</minimum>
+      <maximum>4000</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi5"))</values>
+    </localcolumn>
+    <localcolumn id="usi32">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi16"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi24"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>1100</minimum>
+      <maximum>3300</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi6"))</values>
+    </localcolumn>
+    <localcolumn id="usi33">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi17"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi25"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>1100</minimum>
+      <maximum>3100</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi7"))</values>
+    </localcolumn>
+    <localcolumn id="usi34">
+      <name></name>
+      <description></description>
+      <measurement_quantity>#xpointer(id("usi18"))</measurement_quantity>
+      <submatrix>#xpointer(id("usi26"))</submatrix>
+      <global_flag>15</global_flag>
+      <independent>0</independent>
+      <minimum>-1</minimum>
+      <maximum>-1</maximum>
+      <sequence_representation>explicit</sequence_representation>
+      <values>#xpointer(id("usi8"))</values>
+    </localcolumn>
+  </usi:data>
+
+</usi:tdm>
